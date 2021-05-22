@@ -66,18 +66,18 @@ _("AA Chainfeed Loader")
 // TRANSLATORS: 
 // data/mp/stats/research.json: $.R-Defense-AASite-QuadBof.name
 // data/mp/stats/structure.json: $.AASite-QuadBof.name
-_("AA Flak Cannon Emplacement")  
+_("AA Cyclone Flak Cannon Emplacement")  
 // TRANSLATORS: 
 // data/mp/stats/research.json: $.R-Defense-WallTower-DoubleAAgun.name
 // data/mp/stats/structure.json: $.WallTower-DoubleAAGun.name
-_("AA Flak Cannon Hardpoint")  
+_("AA Cyclone Flak Cannon Hardpoint")  
 // TRANSLATORS: 
 // data/mp/stats/templates.json: $.P0cam3PyFlakHT.name
-_("AA Flak Cannon Python Half-tracks")  
+_("AA Cyclone Flak Cannon Python Half-tracks")  
 // TRANSLATORS: 
-// data/mp/stats/research.json: $.R-Wpn-AAGun02.name
+// data/mp/stats/research.json: $.R-Wpn-AAGun01.name
 // data/mp/stats/weapons.json: $.AAGun2Mk1.name
-_("AA Flak Cannon")  
+_("AA Cyclone Flak Cannon")  
 // TRANSLATORS: 
 // data/mp/messages/resmessages2.json: $.RES_W_AAD1.text[2]
 // data/mp/messages/resmessages3.json: $.RES_W_AAD4.text[2]
@@ -146,6 +146,18 @@ _("AA Target Prediction Computer")
 // data/base/stats/research.json: $.R-Wpn-AAGun-Accuracy01.name
 // data/mp/stats/research.json: $.R-Wpn-AAGun-Accuracy01.name
 _("AA Thermal Imaging Sensor")  
+// TRANSLATORS: 
+// data/mp/stats/research.json: $.R-Defense-AASite-QuadBof02.name
+// data/mp/stats/structure.json: $.AASite-QuadBof02.name
+_("AA Tornado Flak Cannon Emplacement")  
+// TRANSLATORS: 
+// data/mp/stats/research.json: $.R-Defense-WallTower-DoubleAAgun02.name
+// data/mp/stats/structure.json: $.WallTower-DoubleAAGun02.name
+_("AA Tornado Flak Cannon Hardpoint")  
+// TRANSLATORS: 
+// data/mp/stats/research.json: $.R-Wpn-AAGun02.name
+// data/mp/stats/weapons.json: $.AAGun2Mk1Quad.name
+_("AA Tornado Flak Cannon")  
 // TRANSLATORS: 
 // data/base/messages/resmessages2.json: $.RES_W_AAAC1.text[0]
 // data/base/messages/resmessages2.json: $.RES_W_AAROF1.text[0]
@@ -246,7 +258,7 @@ _("Advancedmaterialslab")
 // data/base/messages/resmessages2.json: $.RES_W_AA1.text[2]
 // data/base/messages/resmessages2.json: $.RES_W_AA2.text[2]
 // data/base/messages/resmessages2.json: $.RES_W_AA3.text[2]
-// ... + 8 refs
+// ... + 9 refs
 _("Aerial targets only")  
 // TRANSLATORS: 
 // data/base/messages/resmessages3.json: $.RES_CY_JP1.text[1]
@@ -1170,7 +1182,7 @@ _("Body Points: Low")
 // data/base/messages/resmessages1.json: $.RES_CN1MK1.text[3]
 // data/base/messages/resmessages1.json: $.RES_CN2MK1.text[3]
 // data/base/messages/resmessages1.json: $.RES_CYW_CN1.text[2]
-// ... + 75 refs
+// ... + 76 refs
 _("Body Points: Medium")  
 // TRANSLATORS: 
 // data/base/messages/resmessages1.json: $.RES_MORTA1.text[3]
@@ -2307,6 +2319,9 @@ _("Hardpoint Avenger SAM Site Available")
 // data/mp/messages/resmessagesall.json: $.RES_WT_DOUBLEAA.text[0]
 _("Hardpoint Cyclone AA Gun Available")  
 // TRANSLATORS: 
+// data/mp/messages/resmessagesall.json: $.RES_WT_DOUBLEAA2.text[0]
+_("Hardpoint Tornado AA Gun Available")  
+// TRANSLATORS: 
 // data/mp/messages/resmessagesall.json: $.RES_WT_TWINAGHP.text[0]
 _("Hardpoint Twin Assault Gun Available")  
 // TRANSLATORS: 
@@ -3039,12 +3054,12 @@ _("Improves vehicle speed")
 // data/mp/stats/structure.json: $.Emplacement-Howitzer-Incenediary.name
 _("Incendiary Howitzer Emplacement 2")  
 // TRANSLATORS: 
-// data/mp/messages/resmessagesall.json: $.RES_EMP_INH.text[1]
-_("Incendiary howitzer emplacement")  
-// TRANSLATORS: 
 // data/mp/stats/research.json: $.R-Defense-Howitzer-Incendiary.name
 // data/mp/stats/structure.json: $.Emplacement-Howitzer-Incendiary.name
 _("Incendiary Howitzer Emplacement")  
+// TRANSLATORS: 
+// data/mp/messages/resmessagesall.json: $.RES_EMP_INH.text[1]
+_("Incendiary howitzer emplacement")  
 // TRANSLATORS: 
 // data/mp/messages/resmessagesall.json: $.RES_W_INH.text[1]
 _("Incendiary Howitzer may be assigned to a sensor")  
@@ -4150,15 +4165,15 @@ _("New Systems Structure Available")
 // ... + 6 refs
 _("New Systems Tower Available")  
 // TRANSLATORS: 
+// data/base/messages/resmessagesall.json: $.RES_SENSO1.text[0]
+// data/mp/messages/resmessagesall.json: $.RES_SENSO1.text[0]
+_("New Systems Turret Available For Design")  
+// TRANSLATORS: 
 // data/base/messages/resmessages1.json: $.RES_C_CT1.text[0]
 // data/base/messages/resmessages12.json: $.RES_SY_CBSTU1.text[0]
 // data/mp/messages/resmessages1.json: $.RES_C_CT1.text[0]
 // data/mp/messages/resmessages12.json: $.RES_SY_CBSTU1.text[0]
 _("New Systems Turret Available for Design")  
-// TRANSLATORS: 
-// data/base/messages/resmessagesall.json: $.RES_SENSO1.text[0]
-// data/mp/messages/resmessagesall.json: $.RES_SENSO1.text[0]
-_("New Systems Turret Available For Design")  
 // TRANSLATORS: 
 // data/base/messages/resmessages2.json: $.RES_SY_VCBSTU1.text[0]
 // data/base/messages/resmessages23.json: $.RES_SY_VSTU1.text[0]
@@ -4223,11 +4238,11 @@ _("NEXUS Resistance Circuits Mk2")
 // data/base/stats/research.json: $.R-Sys-Resistance-Upgrade03.name
 _("NEXUS Resistance Circuits Mk3")  
 // TRANSLATORS: 
-// data/base/stats/research.json: $.R-Sys-Resistance-Upgrade01.name
-_("NEXUS Resistance Circuits")  
-// TRANSLATORS: 
 // data/mp/stats/research.json: $.R-Sys-Resistance-Circuits.name
 _("Nexus Resistance Circuits")  
+// TRANSLATORS: 
+// data/base/stats/research.json: $.R-Sys-Resistance-Upgrade01.name
+_("NEXUS Resistance Circuits")  
 // TRANSLATORS: 
 // data/base/stats/structure.json: $.NEXUSWall.name
 _("NEXUS Wall")  
@@ -4508,8 +4523,8 @@ _("Python")
 // data/mp/messages/resmessagesall.json: $.RES_WT_QUADAA.text[1]
 _("Quad 30mm Anti-Aircraft machinegun")  
 // TRANSLATORS: 
-// data/mp/messages/resmessagesall.json: $.RES_WT_DOUBLEAA.text[1]
-_("Quad 80mm Anti-Aircraft machinegun")  
+// data/mp/messages/resmessagesall.json: $.RES_WT_DOUBLEAA2.text[1]
+_("Quad 80mm Anti-Aircraft cannon")  
 // TRANSLATORS: 
 // data/base/messages/resmessages2.json: $.RES_W_AA2.text[1]
 // data/mp/messages/resmessages2.json: $.RES_W_AA2.text[1]
@@ -5339,13 +5354,13 @@ _("Synaptic Link Data Analysis Mk2")
 // data/mp/stats/research.json: $.R-Struc-Research-Upgrade03.name
 _("Synaptic Link Data Analysis Mk3")  
 // TRANSLATORS: 
-// data/base/messages/resmessages1.json: $.RES_ST_RU1.text[1]
-// data/mp/messages/resmessages1.json: $.RES_ST_RU1.text[1]
-_("Synaptic link data analysis")  
-// TRANSLATORS: 
 // data/base/stats/research.json: $.R-Struc-Research-Upgrade01.name
 // data/mp/stats/research.json: $.R-Struc-Research-Upgrade01.name
 _("Synaptic Link Data Analysis")  
+// TRANSLATORS: 
+// data/base/messages/resmessages1.json: $.RES_ST_RU1.text[1]
+// data/mp/messages/resmessages1.json: $.RES_ST_RU1.text[1]
+_("Synaptic link data analysis")  
 // TRANSLATORS: 
 // data/base/messages/resmessages3.json: $.RES_SY_ST1.text[1]
 // data/mp/messages/resmessages3.json: $.RES_SY_ST1.text[1]
@@ -5593,6 +5608,9 @@ _("Turtle AI")
 // data/base/messages/resmessages1.json: $.RES_MG2MK1.text[1]
 // data/mp/messages/resmessages1.json: $.RES_MG2MK1.text[1]
 _("Twin 7.62mm machineguns")  
+// TRANSLATORS: 
+// data/mp/messages/resmessagesall.json: $.RES_WT_DOUBLEAA.text[1]
+_("Twin 80mm Anti-Aircraft cannon")  
 // TRANSLATORS: 
 // data/base/messages/resmessages2.json: $.RES_W_AA1.text[1]
 // data/mp/messages/resmessages2.json: $.RES_W_AA1.text[1]

@@ -153,6 +153,7 @@ data/mp/multiplay/script/rules/events/gameloaded.js
 data/mp/multiplay/script/rules/events/research.js
 data/mp/multiplay/script/rules/events/structurebuilt.js
 data/mp/multiplay/script/rules/events/transfer.js
+data/mp/multiplay/script/rules/events/upgrade.js
 data/mp/multiplay/script/rules/includes.js
 data/mp/multiplay/script/rules/init.js
 data/mp/multiplay/script/rules/oildrum.js
@@ -333,6 +334,14 @@ lib/widget/slider.cpp
 lib/widget/table.cpp
 lib/widget/tip.cpp
 lib/widget/widget.cpp
+lib/wzmaplib/src/map.cpp
+lib/wzmaplib/src/map_crc.cpp
+lib/wzmaplib/src/map_debug.cpp
+lib/wzmaplib/src/map_internal.cpp
+lib/wzmaplib/src/map_io.cpp
+lib/wzmaplib/src/map_preview.cpp
+lib/wzmaplib/src/map_script.cpp
+lib/wzmaplib/src/map_terrain_types.cpp
 po/custom/fromJson.txt
 po/custom/mac-infoplist.txt
 po/custom/warzone2100.desktop.txt
