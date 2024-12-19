@@ -1,12 +1,8 @@
-//globals/constants/definitions and whatever. Includes at the bottom.
-const COBRA_INCLUDES = "/multiplay/skirmish/cobra_includes/";
+const COBRA_INCLUDES = "/multiplay/skirmish/cobra_includes/"; // globals/constants/definitions and whatever. Includes at the bottom.
 const COBRA_RULESETS = "/multiplay/skirmish/cobra_rulesets/";
-
-//Rulesets here.
-include(COBRA_RULESETS + "CobraStandard.js");
+include(COBRA_RULESETS + "CobraStandard.js"); // Rulesets here.
 
 const LOG_RESEARCH_PATH = false;
-
 const MIN_ATTACK_DROIDS = 4;
 const MY_BASE = startPositions[me];
 const OIL_RES = "OilResource";
@@ -20,9 +16,7 @@ const ELECTRONIC_DEFENSES = [
 	"Emplacement-MortarEMP",
 ];
 const BEACON_VTOL_ALARM = "vtolSpotted";
-
-//Research constants
-const TANK_ARMOR = [
+const TANK_ARMOR = [		//Research constants
 	"R-Vehicle-Metals09",
 ];
 const CYBORG_ARMOR = [
@@ -106,9 +100,7 @@ const VTOL_RES = [
 	"R-Wpn-Bomb05",
 	"R-Wpn-Bomb06",
 ];
-
-//Production constants
-const TANK_BODY = [
+const TANK_BODY = [  // Production constants
 	"Body14SUP", // Dragon
 	"Body13SUP", // Wyvern
 	"Body10MBT", // Vengeance
@@ -124,7 +116,7 @@ const SYSTEM_BODY = [
 	"Body1REC",  // Viper
 ];
 const SYSTEM_PROPULSION = [
-	"hover01", // hover
+	"hover01",   // hover
 	"wheeled01", // wheels
 ];
 const VTOL_BODY = [
@@ -139,10 +131,7 @@ const ARTILLERY_SENSORS = [
 	"Sensor-WideSpec",
 	"SensorTurret1Mk1",
 ];
-
-
-//List of Cobra personalities:
-var subPersonalities =
+var subPersonalities = // List of Cobra personalities:
 {
 	AC:
 	{
@@ -260,7 +249,6 @@ var subPersonalities =
 		"beaconVtolPercentage": 70,
 	},
 };
-
 // Groups
 var attackGroup;
 var vtolGroup;
@@ -273,25 +261,24 @@ var retreatGroup;
 
 var grudgeCount; //See who bullies this bot the most and act on it. DO NOT let this use the scavenger player number.
 var personality; //What personality is this instance of Cobra using.
-var lastMsg; //The last Cobra chat message.
+var lastMsg;	 //The last Cobra chat message.
 var lastMsgThrottle; //Last game time a chat messge was sent - throttles Cobra AIs from talking to eachother too much.
-var forceHover; //Use hover propulsion only.
+var forceHover;  //Use hover propulsion only.
 var seaMapWithLandEnemy; //Hover map with an enemy sharing land with Cobra.
 var turnOffCyborgs; //Turn of cyborgs (hover maps/chat).
 var researchComplete; //Check if done with research.
-var turnOffMG; //This is only used for when the personalities don't have their weapons researched.
+var turnOffMG;	 //This is only used for when the personalities don't have their weapons researched.
 var useArti;
 var useVtol;
 var lastAttackedByScavs;
 var currently_dead; // Used to detect if Cobra is, basically, dead. If true, the script is put in a very low perf impact state.
-var beacon; //latest friendly beacon location
+var beacon;	    //latest friendly beacon location
 var enemyUsedElectronicWarfare; //Detect if an enemy used a Nexus Link against us... if so, research the resistance upgrades
 var startAttacking;
 var lastShuffleTime;
 var forceDerrickBuildDefense;
 var randomResearchLabStart;
 var cyborgOnlyGame;
-
 // -- Weapon research list (initializeResearchLists).
 var techlist;
 var weaponTech;
@@ -312,7 +299,6 @@ var standardDefenseTech;
 var machinegunWeaponTech;
 var machinegunWeaponExtra;
 var empWeapons;
-
 
 //Now include everthing else.
 include(COBRA_INCLUDES + "performance.js");
